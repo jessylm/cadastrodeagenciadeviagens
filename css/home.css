@@ -1,19 +1,36 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
 
+
+
+.text{
+    text-align: center;
+    font-size: xx-large;
+    font-style:normal;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 40px;
+    padding-top: 30px;
+    color: #024059;
+    text-shadow: #7595BF;
+}
+
 .container-fluid{
-    background-color: rgb(22, 21, 19);
+    background-color: #7595BF;
     width: max-content;
 }
 
-.conteiner {
-    width: max-content;
-    margin: auto;
+
+
+body{
+    background-image:url(../imagens/porto_de_galinhas.jpg);
+    background-attachment: fixed;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-color: black;
+
+
+
 }
 
-.conteiner img {
-    width: max-content;
-    height: fit-content;
-}
 
 .centro {
     position: absolute;
@@ -56,7 +73,13 @@
 
 
 #menu-h ul li a:hover {
-    background-color: rgb(24, 139, 233);
+    background-color: #34609F;
 }
+
+
+
+    
+
+
 
 
