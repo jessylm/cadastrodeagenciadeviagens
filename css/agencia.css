@@ -1,76 +1,78 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
-
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
 
 
 body{
     background-image: url(../imagens/salvador.webp);
-    background-repeat: no-repeat;
-    background-size: cover;
     background-attachment: fixed;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    font-family: sans-serif;
     ;
 }
-   .container{
-    margin-top: 40px;
-    margin-bottom: 20px;
+.container{
+    margin-top: 130px;
     padding: 30px;
     background-color: #C4DDF2;
     opacity: 10;
-    
-    }
-    h1{
+    border-style: solid;
+    border-color: aquamarine;
+}
 
-    text-align: center
-     }
+.container-fluid{
+    background-color:#0E5B92;
+    width: max-content;
+}
 
-     h3{
+h1{
+    text-align: center;
+}
 
-        text-align:center;
-     }
-    .container-fluid{
+ h3{
+     text-align:center;
+}
 
-        background-color: #7595BF;
-     }
-     * {
-         margin-top: auto;
-         padding: 0;
-         box-sizing: border-box;
-         font-family: 'Open Sans', sans-serif;
-     }
-     .centro {
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        transition: translate(-50%, -50%);
-        text-align: center;
-        padding: 10px;
-    }
-    #menu-h{
-        background-color: rgb(37, 37, 39);
-    }
-    
-    #menu-h ul {
-        max-width: 800px;
-        list-style: none;
-        padding: 0;
-    }
-    
-    #menu-h ul li {
-        display:inline;
-    }
-    
-    #menu-h ul li a {
-        color: rgb(12, 11, 11);
-        padding: 20px;
-        display: inline-block;
-        text-decoration: none;
-        transition: background-4s;
-    }
-    
-    
-    #menu-h ul li a:hover {
-        background-color: #34609F;
-    }
-     
-     
-     
-   
+nav {
+    background: #5434af;
+    height: 0px;
+    width: 100%;
+}
+
+nav ul li {
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+}
+
+nav ul li a {
+    color: #fff;
+    font-size: 17px;
+    padding: 7px 13px;
+    border-radius: 3px;
+    text-transform: uppercase;
+}
+
+a.active, a:hover {
+    background: #1d075f;
+    transition: .5s;
+}
+
+.text{
+    text-align: center;
+    font-size: clamp(1.75em, 1em + 3vw, 2.5em);
+    font-style:normal;
+    font-family:'Times New Roman', Times, serif;
+    color: #FFEB48;
+    margin-top: 3%;
+  
+}
+
+
+
+

@@ -21,13 +21,21 @@
     width: max-content;
 }
 
+.container{
+    margin-top: 130px;
+    padding: 30px;
+    background-color: #C4DDF2;
+    opacity: 10;
+    border-style: solid;
+    border-color: aquamarine;
+}
+
 body{
     background-image:url(../imagens/fortaleza.webp);
     background-attachment: fixed;
     background-size: 100%;
     background-repeat: no-repeat;
 }
-
 
 .sub-cabecalho {
 
@@ -38,45 +46,6 @@ body{
     color:#FFEB48;
     background-size: 100%;
 }
-
-
-.coluna {
-    float: left;
-    width: 25%;
-    padding: 40px;
-    border-style: solid;
-    border-color: aliceblue;
-
-    border-radius: 20px;
-    border-bottom: 3px solid #FFFFFF;
-    border-right: 3px solid#FFFFFF;
-    border-left: 3px solid #FFFFFF;
-    border-top: 3px solid #FFFFFF;
-}
-
-.border_coluna{
-    border-radius: 20px;
-    border-bottom: 3px solid #FFFFFF;
-    border-right: 3px solid#FFFFFF;
-    border-left: 3px solid #FFFFFF;
-    border-top: 3px solid #FFFFFF;
-    
-}
-
-.row {
-    clear: both;
-    display: table;
-}
-
-p {
-    text-align: center;
-    text-align: justify;
-    font-family:Andale Mono, monospace;
-    font-size: larger;
-    color: aliceblue;
-    padding-top:  20px;
-}
-
 
 nav {
     background: #5434af;
@@ -103,17 +72,3 @@ a.active, a:hover {
     transition: .5s;
 }
 
-.text{
-    text-align: center;
-    font-size: clamp(1.75em, 1em + 3vw, 2.5em);
-    font-style:normal;
-    font-family:'Times New Roman', Times, serif;
-    color: #FFEB48;
-    margin-top: 3%;
-  
-}
-
-.container-fluid{
-    background-color:#0E5B92;
-    width: max-content;
-}
