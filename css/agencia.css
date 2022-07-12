@@ -1,20 +1,11 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
-*{
-    padding: 0;
-    margin: 0;
-    text-decoration: none;
-    list-style: none;
-    box-sizing: border-box;
-}
-
 
 body{
     background-image: url(../imagens/salvador.webp);
     background-attachment: fixed;
     background-size: 100%;
     background-repeat: no-repeat;
-    font-family: sans-serif;
-    ;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif, Helvetica, sans-serif;
+    
 }
 .container{
     margin-top: 130px;
@@ -23,11 +14,11 @@ body{
     opacity: 10;
     border-style: solid;
     border-color: aquamarine;
+   
 }
+.nav-wrapper{
 
-.container-fluid{
-    background-color:#0E5B92;
-    width: max-content;
+    background-color: #5434af ;
 }
 
 h1{
@@ -38,40 +29,12 @@ h1{
      text-align:center;
 }
 
-nav {
-    background: #5434af;
-    height: 0px;
-    width: 100%;
-}
-
-nav ul li {
-    display: inline-block;
-    line-height: 80px;
-    margin: 0 5px;
-}
-
-nav ul li a {
-    color: #fff;
-    font-size: 17px;
-    padding: 7px 13px;
-    border-radius: 3px;
-    text-transform: uppercase;
-}
-
 a.active, a:hover {
-    background: #1d075f;
+    background:#1d075f ;
     transition: .5s;
 }
 
-.text{
-    text-align: center;
-    font-size: clamp(1.75em, 1em + 3vw, 2.5em);
-    font-style:normal;
-    font-family:'Times New Roman', Times, serif;
-    color: #FFEB48;
-    margin-top: 3%;
-  
-}
+
 
 
 

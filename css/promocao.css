@@ -1,119 +1,74 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
-
-*{
-    padding: 0;
-    margin: 0;
-    text-decoration: none;
-    list-style: none;
-    box-sizing: border-box;
-}
-
-.text{
-    text-align: center;
-    font-size: large;
-    font-style:normal;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color:black;
-}
-
-.container-fluid{
-    background-color:#0E5B92;
-    width: max-content;
-}
-
-body{
-    background-image:url(../imagens/fortaleza.webp);
-    background-attachment: fixed;
-    background-size: 100%;
-    background-repeat: no-repeat;
-}
-
-
-.sub-cabecalho {
-
-    margin-top: 105px;
-    background-color:#B4BEC9;
-    text-align: center;
-    font-family:Andale Mono, monospace;
-    color:#FFEB48;
-    background-size: 100%;
-}
-
-
-.coluna {
-    float: left;
-    width: 25%;
-    padding: 40px;
-    border-style: solid;
-    border-color: aliceblue;
-
-    border-radius: 20px;
-    border-bottom: 3px solid #FFFFFF;
-    border-right: 3px solid#FFFFFF;
-    border-left: 3px solid #FFFFFF;
-    border-top: 3px solid #FFFFFF;
-}
-
-.border_coluna{
-    border-radius: 20px;
-    border-bottom: 3px solid #FFFFFF;
-    border-right: 3px solid#FFFFFF;
-    border-left: 3px solid #FFFFFF;
-    border-top: 3px solid #FFFFFF;
-    
-}
-
-.row {
-    clear: both;
-    display: table;
-}
-
 p {
     text-align: center;
     text-align: justify;
     font-family:Andale Mono, monospace;
     font-size: larger;
-    color: aliceblue;
+    color:  #FFEB48;
     padding-top:  20px;
 }
-
-
-nav {
-    background: #5434af;
-    height: 0px;
-    width: 100%;
-}
-
-nav ul li {
-    display: inline-block;
-    line-height: 80px;
-    margin: 0 5px;
-}
-
-nav ul li a {
-    color: #fff;
-    font-size: 17px;
-    padding: 7px 13px;
-    border-radius: 3px;
-    text-transform: uppercase;
-}
-
-a.active, a:hover {
-    background: #1d075f;
-    transition: .5s;
-}
-
-.text{
+h3{
     text-align: center;
-    font-size: clamp(1.75em, 1em + 3vw, 2.5em);
-    font-style:normal;
-    font-family:'Times New Roman', Times, serif;
-    color: #FFEB48;
-    margin-top: 3%;
-  
+    color: #1d075f;
+}
+h4{
+    text-align: center;
+    color: #1d075f;
+
+}
+.nav-wrapper{
+
+    background-color: #5434af ;
 }
 
-.container-fluid{
-    background-color:#0E5B92;
-    width: max-content;
+.col{
+    
+    margin-bottom: 5%;
 }
+a.active,a:hover {
+        background: #1d075f;
+        transition: .5s;
+    }
+
+    .border_coluna {
+        border-radius: 20px;
+        border-bottom: 3px solid #FFFFFF;
+        border-right: 3px solid#FFFFFF;
+        border-left: 3px solid #FFFFFF;
+        border-top: 3px solid #FFFFFF;
+    }
+    .carousel-item{
+
+        background-image: url(../imagens/porto_de_galinhas.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+        width: 100%;
+     
+    }
+    
+    .row {
+        border-radius: 20px;
+        border-bottom: 3px solid #FFFFFF;
+        border-right: 3px solid#FFFFFF;
+        border-left: 3px solid #FFFFFF;
+        border-top: 3px solid #FFFFFF;
+        background-color: cadetblue;
+        opacity: 1000px;
+    }
+    
+    .row_texto h1 {
+        border-radius: 20px;
+        border-bottom: 3px solid #FFFFFF;
+        border-right: 3px solid#FFFFFF;
+        border-left: 3px solid #FFFFFF;
+        border-top: 3px solid #FFFFFF;
+        background-color: #5434af;
+        text-align: center;
+        color: #fff;
+    }
+@media screen and (max-width: 500px) {
+        .column {
+            width: 100%;
+        }
+    }
+

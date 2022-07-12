@@ -1,90 +1,54 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
 
-*{
-    padding: 0;
-    margin: 0;
-    text-decoration: none;
-    list-style: none;
-    box-sizing: border-box;
+.nav-wrapper{
+
+    background-color: #5434af ;
 }
-
-body{
-    background-image:url(../imagens/porto_de_galinhas.jpg);
-    background-attachment: fixed;
-    background-size: 100%;
-    background-repeat: no-repeat;
-    font-family: sans-serif;
-}
-
-nav {
-    background: #5434af;
-    height: 0px;
-    width: 100%;
-}
-
-nav ul li {
-    display: inline-block;
-    line-height: 80px;
-    margin: 0 5px;
-}
-
-nav ul li a {
-    color: #fff;
-    font-size: 17px;
-    padding: 7px 13px;
-    border-radius: 3px;
-    text-transform: uppercase;
-}
-
-a.active, a:hover {
+a.active,
+a:hover {
     background: #1d075f;
     transition: .5s;
 }
-
-.text{
-    text-align: center;
-    font-style:italic;
-    font-family:'Times New Roman', Times, serif;
-    color: crimson;
-    margin-bottom: 10px;
-  
-}
-
-.container-fluid{
-    background-color:#0E5B92;
-    width: max-content;
-}
-
-
-.conteudo_central {
-    margin: 10% 8%;
-}
-
-.coluna {
-    float: left;
-    padding: 40px;
+h3{
+    color: yellow;
     text-align: center;
 }
-
-.border_coluna{
+h4{
+    color: #5434af;
+    text-align: center;
+}
+.col{
+    
+    margin-bottom: 5%;
+}
+.border_coluna {
     border-radius: 20px;
     border-bottom: 3px solid #FFFFFF;
     border-right: 3px solid#FFFFFF;
     border-left: 3px solid #FFFFFF;
     border-top: 3px solid #FFFFFF;
-    
+
+}
+.carousel-item{
+
+    background-image: url(../imagens/porto_de_galinhas.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100%;
+ 
 }
 
-.row{
+.row {
     border-radius: 20px;
     border-bottom: 3px solid #FFFFFF;
     border-right: 3px solid#FFFFFF;
     border-left: 3px solid #FFFFFF;
     border-top: 3px solid #FFFFFF;
     background-color: cadetblue;
+    opacity: 1000px;
 }
 
-.row_texto h1{
+.row_texto h1 {
     border-radius: 20px;
     border-bottom: 3px solid #FFFFFF;
     border-right: 3px solid#FFFFFF;
@@ -93,4 +57,9 @@ a.active, a:hover {
     background-color: #5434af;
     text-align: center;
     color: #fff;
+}
+@media screen and (max-width: 500px) {
+    .column {
+        width: 100%;
+    }
 }

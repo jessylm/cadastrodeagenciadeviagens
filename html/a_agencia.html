@@ -4,52 +4,52 @@
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <!--arquivo de fontes do google, menu só é exibido se constar esse arquivo-->
+  <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link type="text/css" rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.0/css/materialize.min.css" />
+
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Jessytour - Agencia</title>
+  <!--css-externo-->
   <link rel="stylesheet" href="../css/agencia.css">
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
-    integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+  <title>Jessytour - Agência</title>
 </head>
 
 <body>
   <!--INICIO CABEÇALHO-->
-  <nav class="navbar-expand-lg navbar-dark bg-gradient-primary">
+  <nav>
+    <div class="nav-wrapper">
+      <a href="#" class="brand-logo">Jessy Tour</a>
 
-    <div class="container-fluid">
-      <div class="collapse navbar-collapse" id="navbarsite">
-        <label class="logo">
-          <div class="img-fluid">
-            <img style="width: 100px;" src="../imagens/logo-png.png" alt="logo">
-          </div>
-        </label>
+      <a href="#" data-activates="menu-mobile" class="button-collapse">
+        <i class="material-icons">menu</i>
+      </a>
 
-        <ul>
-          <li><a href="../index.html">Home</a></li>
-          <li><a href="a_agencia.html">Agência</a></li>
-          <li><a href="destinos.html">Destinos</a></li>
-          <li><a href="promocoes.html">Promoções</a></li>
-          <li><a href="contatos.html">Contatos</a></li>
-        </ul>
-
-        <ul class="navbar-nav ml-auto">
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" id="navdrop">Redes Sociais</a>
-
-            <div class="dropdown-menu">
-              <a class="dropdown-item" href="#">Facebook</a>
-              <a class="dropdown-item" href="#">Instagram</a>
-              <a class="dropdown-item" href="#">Whatsapp</a>
-            </div>
-          </li>
-        </ul>
-      </div>
+      <ul class="right hide-on-med-and-down">
+        <li><a href="../index.html">Home</a></li>
+        <li><a href="a_agencia.html">Agência</a></li>
+        <li><a href="destinos.html">Destino</a></li>
+        <li><a href="promocoes.html">Promoção</a></li>
+        <li><a href="contatos.html">Contato</a></li>
+      </ul>
+      <ul class="side-nav" id="menu-mobile">
+        <li><a href="../index.html">Home</a></li>
+        <li><a href="a_agencia.html">Agência</a></li>
+        <li><a href="destinos.html">Destino</a></li>
+        <li><a href="promocoes.html">Promoção</a></li>
+        <li><a href="contatos.html">Contato</a></li>
+      </ul>
     </div>
   </nav>
+  </script>
+
   <!--FIM CABEÇALHO-->
 
   <div class="container">
     <h1>JESSY TOUR</h1>
-    <p> A JESSY TOUR surgiu em 2019 com a missão de proporcionar aos seus clientes a realização de sonhos com compromisso,
+    <p> A JESSY TOUR surgiu em 2019 com a missão de proporcionar aos seus clientes a realização de sonhos com
+      compromisso,
       qualidade, satisfação e claro, muita responsabilidade. A empresa conta com profissionais qualificados e
       competentes que têm o compromisso de proporcionar a melhor experiência para seus clientes,
       desde o atendimento até as execuções e finalizações das viagens realizadas. De 2019 pra cá, a JESSY TOUR já
@@ -80,17 +80,17 @@
 
 
   <!--jquery,Popper JS,Bootstrap-->
-  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js"
+    integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk"
     crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
-    integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
-    crossorigin="anonymous"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
-    integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js"
+    integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy"
     crossorigin="anonymous"></script>
 
+  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.0/js/materialize.min.js"></script>
 
+  <script src="../js/funcoes.js"></script>
 </body>
 
 </html>
